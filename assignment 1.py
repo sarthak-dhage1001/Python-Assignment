@@ -2,8 +2,8 @@
 
 # List of student attributes
 student1 = [101, "Sarthak", "CSE", 85]
-student2 = [102, "Rahul", "IT", 78]
-student3 = [103, "Aman", "AI & DS", 91]
+student2 = [102, "Akanksha", "IT", 78]
+student3 = [103, "Yogesh", "AI & DS", 91]
 
 # Dictionary storing student records
 students = {
@@ -13,14 +13,14 @@ students = {
 }
 
 # 1. Add a new student record
-new_student = [104, "Priya", "CSE", 88]
+new_student = [104, "Rohit", "CSE", 88]
 students[new_student[0]] = tuple(new_student[1:])
 
 # 2. Delete an existing student record
 del students[102]
 
 # 3. Update details of a student
-updated_student = [103, "Aman", "AI & DS", 95]
+updated_student = [103, "Yogesh", "AI & DS", 95]
 students[updated_student[0]] = tuple(updated_student[1:])
 
 # 4. Display final student records
